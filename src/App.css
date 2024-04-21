@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+}
+
+.authentication {
+    background-color: rgb(34, 34, 74);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-page {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.login-with-google-btn {
+    height: 50px;
+    width: 350px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+/* home page */
+header {
+    width: 100%;
+    height: 5vh;
+    padding: 10px;
+    background-color: rgb(34, 34, 74);
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+}
+@media screen {
+    
+}
+
+.profile {
+    width: 20px;
+    background-color: rgb(51, 51, 98);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+   
+}
+
+.sign-out-btn {
+    
+    padding: 1px;
+    background-color: rgb(5, 95, 0);
+    color: white;
+    width: 70px;
+    border-radius: 20px;
+    border-color: seagreen;
+}
+
+.expence-tracker {
+    width: 50%;
+    background-color: rgb(100, 172, 244);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+
+}
+.container{
+
+}
+.balance {
+    display: flex;
+    align-items: center;
+
+    margin: 30px;
+}
+.clr{
+    color: white;
+}
+.clrn{
+color: red;}
+.income{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+.expences{
+    display: flex;
+    align-items: center;
+
+    margin: 30px;
+}
+.add-transaction{
+    margin: 30px;
+
+}
+.f-box{
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 20px;
+}
+.exp{
+margin-right: 10px;
+}
+.btnbx{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    margin-top: 20px;
+    
+}
+.btn{
+   
+  width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+}
+.transactions{
+    width: 50%;
+    background-color: rgb(161, 208, 254);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.hstry{
+    display: flex;
+    margin: 20px;
+}
+.descrip{
+
+}
+.trnsbx{
+    background-color: rgb(161, 208, 254);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
