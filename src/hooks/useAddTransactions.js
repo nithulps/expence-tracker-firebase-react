@@ -5,7 +5,7 @@ import useGetUserInfo from './useGetUserInfo';
 
 function useAddTransactions() {
     const transactionCollectionRef = collection(db,"transactions")
-    const {userID}= useGetUserInfo();
+    const {userID}= useGetUserInfo() || '';
     const addTransaction = async ({
         description,
         transactionsAmount,

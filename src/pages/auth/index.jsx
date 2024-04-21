@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 
 function Auth() {
     const navigate = useNavigate();
-    const {isAuth}=useGetUserInfo()
+    const {isAuth}=useGetUserInfo() || false
 
     const signInWithGoogle = async () => {
         const results = await signInWithPopup(auth, provider);

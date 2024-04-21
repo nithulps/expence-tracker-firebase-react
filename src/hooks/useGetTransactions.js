@@ -6,7 +6,7 @@ import useGetUserInfo from './useGetUserInfo';
 
 function useGetTransactions() {
     const [transactions, setTransactions] = useState([]);
-    const { userID } = useGetUserInfo();
+    const { userID } = useGetUserInfo() || '';
     const transactionCollectionRef = collection(db, "transactions")
     const [transactionTotals, setTransactionTotals] = useState({
         balance: 0.0,

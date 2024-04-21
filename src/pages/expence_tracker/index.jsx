@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom'
 function ExpenceTracker() {
     const { addTransaction } = useAddTransactions();
     const { transactions, transactionTotals } = useGetTransactions();
-    const { name, profilephoto } = useGetUserInfo();
+    const { name, profilephoto } = useGetUserInfo() || {    };
     const navigate = useNavigate()
 
     const [description, setDescription] = useState("")
